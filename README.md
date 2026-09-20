@@ -1,4 +1,4 @@
-# 📚 MadeEasy — Research Papers Made Simple
+# MadeEasy — Research Papers Made Simple
 
 > **Understand foundational AI papers without getting lost in math jargon.**
 
@@ -6,7 +6,7 @@ MadeEasy breaks down 50+ of the most influential AI & Machine Learning research 
 
 ---
 
-## 🌟 Why MadeEasy?
+## Why MadeEasy?
 
 Reading AI research papers is often intimidating. Authors pack them with dense mathematical formulas and complex academic phrasing. 
 
@@ -18,9 +18,9 @@ Reading AI research papers is often intimidating. Authors pack them with dense m
 
 ---
 
-## 🚀 Key Features & How to Use Them
+## Key Features & How to Use Them
 
-### 1. 📖 Industry Library (50 Papers)
+### 1. Industry Library (50 Papers)
 A curated collection of the most important papers in modern AI (Transformers, LoRA, FlashAttention, DPO, Whisper, CLIP, and more).
 
 - **How to use:**
@@ -29,7 +29,7 @@ A curated collection of the most important papers in modern AI (Transformers, Lo
   - Read the **Breakdown**: The key bottlenecks, solutions, and trade-offs.
   - Click **Paper Link**: Direct link to the original arXiv paper if you want to inspect the source.
 
-### 2. 🧮 Interactive Math & Sliders
+### 2. Interactive Math & Sliders
 Instead of just showing static formulas, MadeEasy lets you play with live parameters to see what actually happens.
 
 - **How to use:**
@@ -37,7 +37,7 @@ Instead of just showing static formulas, MadeEasy lets you play with live parame
   - Move the sliders (e.g., Sequence Length, Hidden Dimension, Rank $r$).
   - Watch the memory consumption, FLOPs, and parameter savings calculate in real time.
 
-### 3. 💻 PyTorch Implementation Snippets
+### 3. PyTorch Implementation Snippets
 See how theoretical equations translate into concise, executable code.
 
 - **How to use:**
@@ -45,7 +45,7 @@ See how theoretical equations translate into concise, executable code.
   - Read the annotated PyTorch module showing the exact forward pass.
   - Click **Copy** to drop the module directly into your own project or Jupyter notebook.
 
-### 4. 📊 Benchmark Matrix
+### 4. Benchmark Matrix
 Compare models and architectures across industry benchmarks like MMLU, GSM8K, HumanEval, and more.
 
 - **How to use:**
@@ -53,7 +53,7 @@ Compare models and architectures across industry benchmarks like MMLU, GSM8K, Hu
   - Filter by category (Reasoning, Coding, Multimodal).
   - Quickly see which models excel at specific tasks.
 
-### 5. ✅ Reading Checklist & Bookmarks
+### 5. Reading Checklist & Bookmarks
 Never lose track of your learning journey.
 
 - **How to use:**
@@ -61,7 +61,7 @@ Never lose track of your learning journey.
   - Click the **Checkmark** icon when you've finished reading and understanding a paper.
   - Click the **Reading Checklist** tab at the top to review your completed papers and study stats.
 
-### 6. ☁️ Google Cloud Sync
+### 6. Google Cloud Sync
 Your bookmarks and study checklist are always safe.
 
 - **How to use:**
@@ -70,7 +70,7 @@ Your bookmarks and study checklist are always safe.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** React 18, TypeScript, Tailwind CSS, Lucide Icons, Motion
 - **Tooling:** Vite
@@ -79,7 +79,7 @@ Your bookmarks and study checklist are always safe.
 
 ---
 
-## 💻 Running Locally
+## Running Locally
 
 If you want to run MadeEasy on your local machine:
 
