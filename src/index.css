@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* Ensure all buttons, links, and clickable controls have the hand pointing cursor */
+button,
+a,
+[role="button"],
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  cursor: pointer;
+}
+
+button:disabled,
+input:disabled {
+  cursor: not-allowed;
+}
+
+/* KaTeX Dark Theme enhancements */
+.katex-display-wrapper .katex-display {
+  margin: 0.25rem 0 !important;
+}
+
+.katex {
+  font-size: 1.1em;
+  color: #6ee7b7; /* Emerald 300 */
+}
+
+.katex .mord,
+.katex .mbin,
+.katex .mrel,
+.katex .mopen,
+.katex .mclose,
+.katex .mpunct {
+  color: inherit;
+}

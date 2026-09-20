@@ -1,0 +1,8 @@
+{
+  "name": "MadeEasy",
+  "description": "Understand, break down, and interactively explore any AI research paper with intuitive mental models, mathematical workflows, training dynamics, and simulators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

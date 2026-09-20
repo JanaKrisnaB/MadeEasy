@@ -1,0 +1,68 @@
+import { Category } from '../types';
+
+export const CATEGORIES: Category[] = [
+  {
+    id: 'architecture-scaling',
+    name: 'Architecture & Scaling',
+    shortName: 'Arch & Scaling',
+    description: 'Foundations of sequence modeling, multi-head self-attention, compute scaling laws, and sparse mixture-of-experts routing.',
+    paperRange: 'Papers 01 – 06',
+    count: 6,
+  },
+  {
+    id: 'alignment-multimodal',
+    name: 'Alignment & Multimodal',
+    shortName: 'Align & Multi',
+    description: 'Human preference optimization (RLHF), dual-encoder contrastive vision-language representation, and score-based diffusion mathematics.',
+    paperRange: 'Papers 07 – 09',
+    count: 3,
+  },
+  {
+    id: 'systems-efficiency',
+    name: 'Systems & Efficiency',
+    shortName: 'Systems',
+    description: 'Hardware distribution strategies (TP/PP), memory partitioning (ZeRO), low-rank adaptation (LoRA), and paged KV-cache management.',
+    paperRange: 'Papers 10 – 13',
+    count: 4,
+  },
+  {
+    id: 'reasoning-compute',
+    name: 'Reasoning & Test-Time Compute',
+    shortName: 'Reasoning & TTC',
+    description: 'Chain-of-thought token generation, test-time compute search policies, RL-induced deliberate reasoning, and ultra-dense MoE playbooks.',
+    paperRange: 'Papers 14 – 17',
+    count: 4,
+  },
+  {
+    id: 'latent-world-models',
+    name: 'Latent Reasoning & World Models',
+    shortName: 'Latent & World',
+    description: 'Continuous latent space reasoning, implicit fixed-point layers, non-generative joint embedding architectures, and test-time training.',
+    paperRange: 'Papers 18 – 22',
+    count: 5,
+  },
+  {
+    id: 'neuro-symbolic-agents',
+    name: 'Neuro-Symbolic & Agents',
+    shortName: 'Neuro-Symbolic',
+    description: 'Formal mathematical theorem verification, Olympiad geometry deduction, skill acquisition benchmarks, and autonomous software agents.',
+    paperRange: 'Papers 23 – 27',
+    count: 5,
+  },
+  {
+    id: 'safety-governance',
+    name: 'Safety & Governance',
+    shortName: 'Safety',
+    description: 'Strategic compliance faking, post-RLHF mode collapse / hiveminds, and systematic threat taxonomies for agentic tool execution.',
+    paperRange: 'Papers 28 – 30',
+    count: 3,
+  },
+  {
+    id: 'frontier-future',
+    name: 'Frontier & Future',
+    shortName: 'Frontier',
+    description: 'Limits of test-time search degradation, adaptive agent thinking horizons, and recurrent depth computation.',
+    paperRange: 'Papers 31 – 33',
+    count: 3,
+  },
+];
